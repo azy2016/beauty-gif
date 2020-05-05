@@ -7,7 +7,7 @@ import Qr from "../components/qr"
 import Top from "../components/top"
 import Pagination from "../components/pagination"
 import SEO from "../components/seo"
-import Header from "../components/Header"
+import Header from "../components/header"
 import Style from "../styles/index.module.css"
 
 export default ({pageContext: {chuckData, nowPage, page}}) => (
