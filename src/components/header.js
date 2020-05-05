@@ -52,7 +52,6 @@ class Header extends React.Component {
                         <li><a className={this.props.nav === "index" ? Style.active:""} href="/">首页</a></li>
                         <li><a className={this.props.nav === "hot" ? Style.active:""} href="/hot">热门</a></li>
                         <li><a href="https://52beautys.com">美女写真</a></li>
-                        <li><a href="https://like-gif.com">搞笑gif</a></li>
                     </ul>
                 </nav>
             </header>
