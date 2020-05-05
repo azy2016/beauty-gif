@@ -9,7 +9,7 @@ module.exports = {
     title: `妹子gif`,
     description: `一个专注收集妹子gif图片的网站。`,
     author: `3000`,
-    siteUrl: `https://beauty.like-gif.com`,
+    siteUrl: `https://like-gif.com`,
   },
   plugins: [
     {
