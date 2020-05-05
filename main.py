@@ -13,7 +13,7 @@ db = pymysql.connect("localhost", "site", "sitemysqlpossward", "siteapi.com")
 cursor = db.cursor()
 
 def main():
-    data = queryDb("SELECT `id`, `src`, `title`, `read`, `like`, DATE_FORMAT(`create_ad`,'%Y-%m-%d') as `created_ad` FROM site ORDER BY `uq` DESC")
+    data = queryDb("SELECT `id`, `src`, `title`, `read`, `like`, DATE_FORMAT(`create_ad`,'%Y-%m-%d') as `created_ad` FROM site ORDER BY `id` DESC")
     createJson("content/db.json", data)
     data = queryDb("SELECT `id`, `src`, `title`, `read`, `like`, DATE_FORMAT(`create_ad`,'%Y-%m-%d') as `created_ad` FROM site ORDER BY `like` DESC LIMIT 10")
     createJson("content/like.json", data)

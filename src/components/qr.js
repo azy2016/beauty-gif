@@ -17,6 +17,6 @@ export default () => (
         }}>微信公众号</p>
         <img style={{
             width: `100%`
-        }} src="http://pb3.pstatp.com/large/pgc-image/9b29c5f789884c60a88f07212069060b" alt="微信二维码" />
+        }} src="https://pb3.pstatp.com/large/pgc-image/9b29c5f789884c60a88f07212069060b" alt="微信二维码" />
     </div>
 )

@@ -7,11 +7,13 @@ import Qr from "../components/qr"
 import Top from "../components/top"
 import Pagination from "../components/pagination"
 import SEO from "../components/seo"
+import Header from "../components/Header"
 import Style from "../styles/index.module.css"
 
 export default ({pageContext: {chuckData, nowPage, page}}) => (
     <Layout>
         <SEO title="妹子gif" description="" />
+        <Header nav="index" />
         <Content>
             <div className={Style.list}>
                 {

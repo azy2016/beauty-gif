@@ -9,6 +9,7 @@ module.exports = {
     title: `妹子gif`,
     description: `一个专注收集妹子gif图片的网站。`,
     author: `3000`,
+    siteUrl: `https://beauty.like-gif.com`,
   },
   plugins: [
     {
@@ -27,6 +28,7 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -37,6 +39,15 @@ module.exports = {
           `gatsby-remark-lazy-load`,
         ]
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-baidu-analytics`,
+      options: {
+        // baidu analytics siteId
+        siteId: "32c2baf043674b566784329e6663db90",
+        // Put analytics script in the head instead of the body [default:false]
+        head: false,
+      },
+    },
   ],
 }
