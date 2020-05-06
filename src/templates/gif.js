@@ -8,11 +8,13 @@ import Top from "../components/top"
 import Page from "../components/page"
 import Range from "../components/range"
 import SEO from "../components/seo"
+import Header from "../components/header"
 import Style from "../styles/index.module.css"
 
 export default ({pageContext: {data, length}}) => (
     <Layout>
         <SEO title={data.title} description={data.title} />
+        <Header />
         <Content>
             <div className={Style.list}>
                 <Item obj={data} />

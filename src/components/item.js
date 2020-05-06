@@ -77,7 +77,7 @@ class Item extends React.Component {
     render() {
         return (
             <div className={Style.item}>
-                <p className={Style.title}><a href={`/gif/${this.props.obj.id}`}>{this.props.obj.title}</a></p>
+                <h2 className={Style.title}><a href={`/gif/${this.props.obj.id}`}>{this.props.obj.title}</a></h2>
                 <div className={Style.content}>
                     <a href={`/gif/${this.props.obj.id}`}>
                     <img className="lazyload" src="https://p9.pstatp.com/large/pgc-image/aac1156d3a194a29886177f65807b142" 
