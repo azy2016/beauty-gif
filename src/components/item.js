@@ -81,7 +81,7 @@ class Item extends React.Component {
                 <div className={Style.content}>
                     <a href={`/gif/${this.props.obj.id}`}>
                     <img className="lazyload" src="https://p9.pstatp.com/large/pgc-image/aac1156d3a194a29886177f65807b142" 
-                    data-src={this.props.obj.src} onLoad={(e) => this.handelLoad(e)} alt="妹子gif"></img></a>
+                    data-src={this.props.obj.src} onLoad={(e) => this.handelLoad(e)} alt={this.props.obj.title}></img></a>
                 </div>
                 <div className={Style.footer}>
                     <div>
