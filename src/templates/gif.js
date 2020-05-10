@@ -13,7 +13,7 @@ import Style from "../styles/index.module.css"
 
 export default ({pageContext: {data, length}}) => (
     <Layout>
-        <SEO title={data.title} description={data.title} />
+        <SEO title={`${data.title}-妹子gif`} description="" />
         <Header />
         <Content>
             <div className={Style.list}>
