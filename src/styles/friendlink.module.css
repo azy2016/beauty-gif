@@ -1,0 +1,23 @@
+.box{
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #eee;
+}
+.link-box{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.link-box p {
+    margin: 1rem 0;
+    padding-left: 8px; 
+    border-left: 4px solid #e74291;
+    font-size: 16px;
+}
+.box a {
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: .2rem .5rem;
+    margin-right: .5rem;
+    border-radius: 5px;
+}
