@@ -51,7 +51,7 @@ class Header extends React.Component {
                 <nav className={this.state.isFlixed ? Style.isFlixed:''}>
                     <ul className={Style.nav} >
                         <li><a className={this.props.nav === "index" ? Style.active:""} href="/">首页</a></li>
-                        <li><Link className={this.props.nav === "hot" ? Style.active:""} href="/hot">热门</Link></li>
+                        <li><Link className={this.props.nav === "hot" ? Style.active:""} to="/hot">热门</Link></li>
                         <li><a href="https://52beautys.com">美女写真</a></li>
                     </ul>
                 </nav>
